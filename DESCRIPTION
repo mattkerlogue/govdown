@@ -1,6 +1,6 @@
 Package: govdown
 Title: GOV.UK Style Templates for R Markdown
-Version: 0.9.0
+Version: 0.9.1
 Authors@R:
     c(person(given = "Crown Copyright 2019",
              role = "cph"),
@@ -17,9 +17,10 @@ Imports:
     rmarkdown
 Suggests:
     reticulate,
-    testthat (>= 2.1.0)
+    testthat (>= 2.1.0),
+    crosstalk
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 6.1.1
+RoxygenNote: 7.1.0
 SystemRequirements: pandoc (>= 2.0) - http://pandoc.org
